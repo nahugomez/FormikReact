@@ -1,11 +1,13 @@
-import './App.css'
+import './App.css';
+import { Container } from '@mui/material';
+import Form from './components/Form';
 
 function App() {
-
   return (
-    <>
-      <p>Application Working</p>
-    </>
+    <Container>
+      <h1>Form handling with Formik</h1>
+      <Form />
+    </Container>
   )
 }
 
