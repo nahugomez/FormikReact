@@ -20,6 +20,8 @@ const Form = () => {
         onSubmit: handleData,
     });
 
+    throw new Error("Error");
+
     return (
         <Card style={{ padding: "1rem" }} elevation={3}>
             <h2>🙇‍♂️ Ingrese datos</h2>
