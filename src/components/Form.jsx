@@ -20,7 +20,8 @@ const Form = () => {
         onSubmit: handleData,
     });
 
-    throw new Error("Error");
+    // Uncomment this line for test ErrorBoundary
+    // throw new Error("Error");
 
     return (
         <Card style={{ padding: "1rem" }} elevation={3}>
